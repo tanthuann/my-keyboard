@@ -30,7 +30,7 @@ const Keyboard = () => {
             !["break-line", "empty"].includes(keyCap.name) ? (
               <KeyCap key={`${keyCap.name}-${key}`} {...keyCap} />
             ) : (
-              <div className={keyCap.name} />
+              <div key={`${keyCap.name}-${key}`} className={keyCap.name} />
             )
           )}
         </div>

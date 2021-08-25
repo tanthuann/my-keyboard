@@ -1,7 +1,5 @@
 // libs
 import { useState, useEffect } from "react";
-// other
-import CONSTANTS from "@/constants";
 
 export const useKeyPress = (targetKey, element = window) => {
   // State for keeping track of whether key is pressed
@@ -9,7 +7,7 @@ export const useKeyPress = (targetKey, element = window) => {
 
   // If pressed key is our target key then set to true
   const downHandler = (e) => {
-    if (e.key === targetKey) {
+    if (e.key.toLowerCase() === targetKey.toLowerCase()) {
       e.preventDefault();
       setKeyPressed(true);
     }
@@ -17,7 +15,7 @@ export const useKeyPress = (targetKey, element = window) => {
 
   // If released key is our target key then set to false
   const upHandler = (e) => {
-    if (e.key === targetKey) {
+    if (e.key.toLowerCase() === targetKey.toLowerCase()) {
       e.preventDefault();
       setKeyPressed(false);
     }
@@ -29,32 +27,20 @@ export const useKeyPress = (targetKey, element = window) => {
     setKeyPressed(false);
   };
 
-  const compositionUpdateHandler = () => {
-    setKeyPressed(false);
-  };
-
   useEffect(() => {
     // Make sure element supports addEventListener
     const isSupported = element && element.addEventListener;
     if (!isSupported) return false;
 
     // Add event listeners
-    element.addEventListener(CONSTANTS.EVENT_NAMES.KEY_DOWN, downHandler);
-    element.addEventListener(CONSTANTS.EVENT_NAMES.KEY_UP, upHandler);
-    element.addEventListener(CONSTANTS.EVENT_NAMES.BLUR, blurHandler);
-    element.addEventListener(
-      CONSTANTS.EVENT_NAMES.COMPOSITION_UPDATE,
-      compositionUpdateHandler
-    );
+    element.addEventListener("keydown", downHandler);
+    element.addEventListener("keyup", upHandler);
+    element.addEventListener("blur", blurHandler);
     // Remove event listeners on cleanup
     return () => {
-      element.removeEventListener(CONSTANTS.EVENT_NAMES.KEY_DOWN, downHandler);
-      element.removeEventListener(CONSTANTS.EVENT_NAMES.KEY_UP, upHandler);
-      element.removeEventListener(CONSTANTS.EVENT_NAMES.BLUR, blurHandler);
-      element.removeEventListener(
-        CONSTANTS.EVENT_NAMES.COMPOSITION_UPDATE,
-        compositionUpdateHandler
-      );
+      element.removeEventListener("keydown", downHandler);
+      element.removeEventListener("keyup", upHandler);
+      element.removeEventListener("blur", blurHandler);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // Empty array ensures that effect is only run on mount and unmount

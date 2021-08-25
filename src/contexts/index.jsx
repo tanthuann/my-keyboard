@@ -7,7 +7,7 @@ const ProvidePressedKey = ({ children }) => {
   const [pressedKeys, setPressedKeys] = useState({});
 
   const saveKey = (key) => {
-    setPressedKeys({ ...pressedKeys, [key]: true });
+    setPressedKeys({ ...pressedKeys, [key.toLowerCase()]: true });
   };
 
   return (

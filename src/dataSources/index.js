@@ -75,8 +75,9 @@ const mainKeys = [
   { name: "Control", nameArr: "Ctrl", style: { width: 50 } },
   { name: "Meta", nameArr: "Win", style: { width: 50 } },
   { name: "Alt", style: { width: 50 } },
-  { name: " ", style: { width: 370 } },
+  { name: " ", style: { width: 290 } },
   { name: "Alt", style: { width: 50 } },
+  { name: "Fn", style: { width: 50 } },
   { name: "ContextMenu", nameArr: "Menu", style: { width: 50 } },
   { name: "Control", nameArr: "Ctrl", style: { width: 50 } },
 ];
