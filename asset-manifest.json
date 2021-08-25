@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/my-keyboard/static/css/main.8f120ec0.chunk.css",
-    "main.js": "/my-keyboard/static/js/main.509b73d6.chunk.js",
-    "main.js.map": "/my-keyboard/static/js/main.509b73d6.chunk.js.map",
-    "runtime-main.js": "/my-keyboard/static/js/runtime-main.6752b3ad.js",
-    "runtime-main.js.map": "/my-keyboard/static/js/runtime-main.6752b3ad.js.map",
-    "static/js/2.bc100103.chunk.js": "/my-keyboard/static/js/2.bc100103.chunk.js",
-    "static/js/2.bc100103.chunk.js.map": "/my-keyboard/static/js/2.bc100103.chunk.js.map",
-    "static/js/3.fe5a7979.chunk.js": "/my-keyboard/static/js/3.fe5a7979.chunk.js",
-    "static/js/3.fe5a7979.chunk.js.map": "/my-keyboard/static/js/3.fe5a7979.chunk.js.map",
+    "main.js": "/my-keyboard/static/js/main.5a14af47.chunk.js",
+    "main.js.map": "/my-keyboard/static/js/main.5a14af47.chunk.js.map",
+    "runtime-main.js": "/my-keyboard/static/js/runtime-main.73a8d320.js",
+    "runtime-main.js.map": "/my-keyboard/static/js/runtime-main.73a8d320.js.map",
+    "static/js/2.9cf7ceac.chunk.js": "/my-keyboard/static/js/2.9cf7ceac.chunk.js",
+    "static/js/2.9cf7ceac.chunk.js.map": "/my-keyboard/static/js/2.9cf7ceac.chunk.js.map",
+    "static/js/3.3b82cdde.chunk.js": "/my-keyboard/static/js/3.3b82cdde.chunk.js",
+    "static/js/3.3b82cdde.chunk.js.map": "/my-keyboard/static/js/3.3b82cdde.chunk.js.map",
     "index.html": "/my-keyboard/index.html",
     "static/css/main.8f120ec0.chunk.css.map": "/my-keyboard/static/css/main.8f120ec0.chunk.css.map",
-    "static/js/2.bc100103.chunk.js.LICENSE.txt": "/my-keyboard/static/js/2.bc100103.chunk.js.LICENSE.txt"
+    "static/js/2.9cf7ceac.chunk.js.LICENSE.txt": "/my-keyboard/static/js/2.9cf7ceac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6752b3ad.js",
-    "static/js/2.bc100103.chunk.js",
+    "static/js/runtime-main.73a8d320.js",
+    "static/js/2.9cf7ceac.chunk.js",
     "static/css/main.8f120ec0.chunk.css",
-    "static/js/main.509b73d6.chunk.js"
+    "static/js/main.5a14af47.chunk.js"
   ]
 }
