@@ -1,0 +1,18 @@
+@import "@/layouts/variable.scss";
+
+.key-cap {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  border: 1px solid $key-color;
+  margin-left: 5px;
+  padding: 5px 10px;
+  width: 30px;
+  height: 40px;
+  color: $key-color;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #ededed;
+  letter-spacing: -1px;
+  border-radius: 3px;
+}

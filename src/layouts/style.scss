@@ -1,0 +1,15 @@
+.my-keyboard {
+  height: 100vh;
+  background-color: #252525;
+  .header {
+    padding: 50px;
+    font-size: 50px;
+    color: #ff4848;
+    font-weight: 700;
+  }
+}
+
+::selection {
+  visibility: hidden;
+  opacity: 0;
+}

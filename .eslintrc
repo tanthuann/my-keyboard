@@ -74,6 +74,7 @@
     "no-shadow": "off",
     "import/extensions": ["error", "never"],
     "import/order": 0,
-    "eslint-comments/no-unlimited-disable": "off"
+    "eslint-comments/no-unlimited-disable": "off",
+    "react/no-array-index-key": "off"
   }
 }

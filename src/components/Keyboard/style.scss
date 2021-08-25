@@ -1,0 +1,63 @@
+@import "@/layouts/variable.scss";
+
+.keyboard {
+  display: grid;
+  grid-template-columns: 870px 181px;
+  grid-template-rows: 1fr 2fr 3fr;
+  grid-gap: 20px;
+  width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid $key-color;
+  border-radius: 8px;
+  background-color: #fff;
+
+  .fnKeys {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .areaKey1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .areaKey2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  .mainKeys {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+  .arrowKeys {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .areaKey1,
+  .fnKeys,
+  .mainKeys {
+    display: flex;
+    flex-wrap: wrap;
+
+    .break-line {
+      flex-basis: 100%;
+      height: 0;
+    }
+  }
+  .arrowKeys,
+  .areaKey2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 47px;
+    grid-gap: 3px;
+  }
+
+  .areaKey2 {
+    margin-top: 0px;
+  }
+
+  > div {
+    padding: 5px;
+  }
+}
