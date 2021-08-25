@@ -10,7 +10,10 @@
   padding: 20px;
   border: 5px solid $key-color;
   border-radius: 8px;
-  background-color: #fff;
+  background-image: url("https://user-images.githubusercontent.com/44896550/130830863-8fc61139-8d55-49ef-9b5a-d00a42b4a9b3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   .fnKeys {
     grid-column: 1 / 2;
