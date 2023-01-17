@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/my-keyboard/static/css/main.318d9192.chunk.css",
-    "main.js": "/my-keyboard/static/js/main.0b1b7e1d.chunk.js",
-    "main.js.map": "/my-keyboard/static/js/main.0b1b7e1d.chunk.js.map",
-    "runtime-main.js": "/my-keyboard/static/js/runtime-main.33aa48c9.js",
-    "runtime-main.js.map": "/my-keyboard/static/js/runtime-main.33aa48c9.js.map",
-    "static/js/2.4a0b30e9.chunk.js": "/my-keyboard/static/js/2.4a0b30e9.chunk.js",
-    "static/js/2.4a0b30e9.chunk.js.map": "/my-keyboard/static/js/2.4a0b30e9.chunk.js.map",
-    "static/js/3.c55a9a46.chunk.js": "/my-keyboard/static/js/3.c55a9a46.chunk.js",
-    "static/js/3.c55a9a46.chunk.js.map": "/my-keyboard/static/js/3.c55a9a46.chunk.js.map",
-    "index.html": "/my-keyboard/index.html",
-    "static/css/main.318d9192.chunk.css.map": "/my-keyboard/static/css/main.318d9192.chunk.css.map",
-    "static/js/2.4a0b30e9.chunk.js.LICENSE.txt": "/my-keyboard/static/js/2.4a0b30e9.chunk.js.LICENSE.txt"
+    "main.css": "/keyboard.tanthuann.xyz/static/css/main.318d9192.chunk.css",
+    "main.js": "/keyboard.tanthuann.xyz/static/js/main.0b1b7e1d.chunk.js",
+    "main.js.map": "/keyboard.tanthuann.xyz/static/js/main.0b1b7e1d.chunk.js.map",
+    "runtime-main.js": "/keyboard.tanthuann.xyz/static/js/runtime-main.ae09c36f.js",
+    "runtime-main.js.map": "/keyboard.tanthuann.xyz/static/js/runtime-main.ae09c36f.js.map",
+    "static/js/2.4a0b30e9.chunk.js": "/keyboard.tanthuann.xyz/static/js/2.4a0b30e9.chunk.js",
+    "static/js/2.4a0b30e9.chunk.js.map": "/keyboard.tanthuann.xyz/static/js/2.4a0b30e9.chunk.js.map",
+    "static/js/3.c55a9a46.chunk.js": "/keyboard.tanthuann.xyz/static/js/3.c55a9a46.chunk.js",
+    "static/js/3.c55a9a46.chunk.js.map": "/keyboard.tanthuann.xyz/static/js/3.c55a9a46.chunk.js.map",
+    "index.html": "/keyboard.tanthuann.xyz/index.html",
+    "static/css/main.318d9192.chunk.css.map": "/keyboard.tanthuann.xyz/static/css/main.318d9192.chunk.css.map",
+    "static/js/2.4a0b30e9.chunk.js.LICENSE.txt": "/keyboard.tanthuann.xyz/static/js/2.4a0b30e9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.33aa48c9.js",
+    "static/js/runtime-main.ae09c36f.js",
     "static/js/2.4a0b30e9.chunk.js",
     "static/css/main.318d9192.chunk.css",
     "static/js/main.0b1b7e1d.chunk.js"
